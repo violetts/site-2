@@ -1,0 +1,22 @@
+.layer {
+    width: 100%;
+    
+    &_header {
+        background-image: url('../img/header_book.jpg');
+        background-size: cover;
+        background-color: aquamarine;
+        height: 600px;
+    }
+    
+    &_main {
+        background-color: #fff;
+    }
+    
+    &_main_grey {
+        background-color: #e3e3e3;
+    }
+    
+    &_footer {
+        text-align: center;
+    }
+}

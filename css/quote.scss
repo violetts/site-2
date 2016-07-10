@@ -1,0 +1,15 @@
+.quote {
+    width: 838px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #848484;
+    font-style: italic;
+    padding: 0 60px;
+    
+    &__author {
+        font-style: normal;
+        color: #222222;
+        text-align: center;
+        margin: 30px 0 0;
+    }
+}

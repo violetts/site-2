@@ -1,0 +1,19 @@
+.features {
+    background-color: yellow;
+    
+    &__title {
+        color: red;
+    }
+    
+    &__title:hover + &__description {
+        display: block;
+    }
+    
+    &__description {
+        color: green;
+        display: none;
+    }
+    
+}
+
+

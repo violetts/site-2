@@ -1,0 +1,21 @@
+.title {
+    
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    color: #222222;
+    
+    &_size_1x {
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    &_size_2x {
+        font-size: 18px;
+        color: #848484;
+    }
+    
+    &_color_white {
+        color: #fff;
+        line-height: 30px;
+    }
+}

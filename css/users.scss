@@ -1,0 +1,11 @@
+.users {
+    
+    &__contact {
+        text-align: center;
+        
+        & .copy {
+            margin: 20px 0;
+        }
+    }    
+}
+

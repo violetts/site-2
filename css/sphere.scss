@@ -1,0 +1,41 @@
+.sphere {
+    display: inline-block;
+    margin: 0 0 0 -45px;
+    position: relative;
+        
+        &__item_1x {
+            display: inline-block;
+            width: 98px;
+            height: 98px;
+            border-radius: 50%;
+            background-color: rgb(46, 204, 113);
+            margin: 0 0 30px;
+            
+             &:hover {
+                background-color: #62d995;
+                cursor: pointer;
+            }
+        }
+        
+        &__item_2x {
+            display: inline-block;
+            list-style: none;
+            width: 53px;
+            height: 53px;
+            border-radius: 50%;
+            background-color: rgba(3, 3, 3, 0.29); 
+            
+            &:hover {
+                background-color: #62d995;
+                cursor: pointer;
+                
+            }
+        }
+        
+        &__item_2x + &__item_2x {
+            margin-left: 15px;
+        }
+    
+}
+
+

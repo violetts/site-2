@@ -1,0 +1,12 @@
+.menu {
+    margin:0 -20px;
+    
+    &__item {
+        display: inline-block;
+        list-style: none;
+    }
+    
+    &__item + &__item {
+        margin-left: 40px;
+    }
+}

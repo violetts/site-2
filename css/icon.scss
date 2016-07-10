@@ -1,0 +1,24 @@
+.icon {
+    font-family: 'font-awesome';
+    position: absolute;
+    color: rgb(244, 244, 244);
+    transform: translateX(50%);
+    
+    &_social {
+        transform: translateX(-50%);
+    }
+    
+    &.fa {
+        line-height: 55px;
+    }
+    
+    &.fa.fa-windows {
+        transform: translateX(36%);
+    }
+    
+    &_big.fa {
+        line-height: 98px;
+        transform: translateX(-45%);
+    }
+}
+

@@ -1,0 +1,21 @@
+.button {
+    display: inline-block;
+    border-radius: 0px 15px 15px 0px;
+    width: 140px;
+    height: 58px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 700;
+    
+    &_green {
+        border: 1px solid #2ecc71;
+        background-color: #2ecc71;
+        color: #fff;
+           
+            &:hover {
+                border: 1px solid #4db97b;
+                background-color: #4db97b;
+        }
+    }
+}
