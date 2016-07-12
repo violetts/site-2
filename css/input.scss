@@ -1,13 +1,10 @@
 .input {
     display: inline-block;
-    border: 1px solid rgb(200, 200, 200);
     border-radius: 15px 0px 0px 15px;
     width: 305px;
     height: 58px;
     padding: 0px 20px;
     box-sizing: border-box;
-    
-    &_bgr_white {
-        background-color: rgb(255, 255, 255);
-    }
+    border:none;
+    outline: none;
 }

@@ -1,0 +1,37 @@
+.page {
+    font-level: 16px;
+    line-height: 24px;
+    color: #848484;
+    font-family: 'Raleway', sans-serif;
+    
+    &__header {
+        background-image: url('../img/header.png');
+        background-size: cover;
+        background-color: #3a3c3b;
+        height: 540px;
+        padding: 60px 0 0;
+        border-top: 10px solid #2ecc71 ;
+    }
+    
+    &__section {
+        background-color: #fff;
+        padding: 60px 0 35px;
+    }
+    
+    &__section_grey {
+         background-color: #e3e3e3;
+        padding: 60px 0;
+    }
+    
+    &__footer {
+        text-align: center;
+        padding: 60px 0;
+    }
+    
+     &__footer_grey {
+        background-color: #e3e3e3;
+    }
+    
+}
+
+

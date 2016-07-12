@@ -1,14 +1,14 @@
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
- * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ * 2. Prevent adjustments of font level after orientation changes in IE and iOS.
  */
 html {
   font-family: sans-serif;
   /* 1 */
-  -ms-text-size-adjust: 100%;
+  -ms-text-level-adjust: 100%;
   /* 2 */
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-level-adjust: 100%;
   /* 2 */
 }
 
@@ -76,11 +76,11 @@ template,
   display: none;
 }
 
-/* Links
+/* menu__links
    ========================================================================== */
 /**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ * 1. Remove the gray background on active menu__links in IE 10.
+ * 2. Remove gaps in menu__links underline in iOS 8+ and Safari 8+.
  */
 a {
   background-color: transparent;
@@ -90,7 +90,7 @@ a {
 }
 
 /**
- * Remove the outline on focused links when they are also active or hovered
+ * Remove the outline on focused menu__links when they are also active or hovered
  * in all browsers (opinionated).
  */
 a:active,
@@ -137,11 +137,11 @@ dfn {
 }
 
 /**
- * Correct the font size and margin on `h1` elements within `section` and
+ * Correct the font level and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-level: 2em;
   margin: 0.67em 0;
 }
 
@@ -154,10 +154,10 @@ mark {
 }
 
 /**
- * Add the correct font size in all browsers.
+ * Add the correct font level in all browsers.
  */
 small {
-  font-size: 80%;
+  font-level: 80%;
 }
 
 /**
@@ -166,7 +166,7 @@ small {
  */
 sub,
 sup {
-  font-size: 75%;
+  font-level: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -183,7 +183,7 @@ sup {
 /* Embedded content
    ========================================================================== */
 /**
- * Remove the border on images inside links in IE 10-.
+ * Remove the border on images inside menu__links in IE 10-.
  */
 img {
   border-style: none;
@@ -199,7 +199,7 @@ svg:not(:root) {
 /* Grouping content
    ========================================================================== */
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 1. Correct the inheritance and scaling of font level in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 code,
@@ -208,7 +208,7 @@ pre,
 samp {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 1em;
+  font-level: 1em;
   /* 2 */
 }
 
@@ -404,68 +404,34 @@ textarea {
   /* 2 */
 }
 
-.faces {
-  background-color: green;
-}
-.faces__item {
-  display: inline-block;
-  vertical-align: top;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  background-color: tomato;
-}
-.faces__item:hover {
-  background-color: aqua;
-}
-
-.features {
-  background-color: yellow;
-}
-.features__title {
-  color: red;
-}
-.features__title:hover + .features__description {
-  display: block;
-}
-.features__description {
-  color: green;
-  display: none;
-}
-
 .title {
   font-weight: 700;
   margin: 0 0 30px 0;
   color: #222222;
 }
-.title_size_1x {
+.title_level_1x {
   font-size: 24px;
   font-family: 'Raleway', sans-serif;
+  line-height: 30px;
 }
-.title_size_2x {
+.title_level_2x {
+  font-size: 22px;
+}
+.title_level_3x {
   font-size: 18px;
   color: #848484;
 }
 .title_color_white {
   color: #fff;
-  line-height: 30px;
-}
-
-.link {
-  color: #848484;
-  font-size: 16ppx;
-  text-decoration: none;
 }
 
 .copy_main {
-  font-size: 16px;
+  font-level: 16px;
   color: #848484;
 }
 
 .quote {
-  width: 838px;
-  margin: 0 auto;
-  font-size: 16px;
+  font-level: 16px;
   color: #848484;
   font-style: italic;
   padding: 0 60px;
@@ -474,65 +440,46 @@ textarea {
   font-style: normal;
   color: #222222;
   text-align: center;
-  margin: 30px 0 0;
-}
-
-.layer {
-  width: 100%;
-}
-.layer_header {
-  background-image: url("../img/header_book.jpg");
-  background-size: cover;
-  background-color: aquamarine;
-  height: 600px;
-}
-.layer_main {
-  background-color: #fff;
-}
-.layer_main_grey {
-  background-color: #e3e3e3;
-}
-.layer_footer {
-  text-align: center;
+  margin: 20px 0 0;
 }
 
 .container {
   width: 1180px;
   margin: 0 auto;
-  padding: 60px 0;
 }
 
 .sphere {
   display: inline-block;
-  margin: 0 0 0 -45px;
   position: relative;
+  padding: 0;
+  margin: 0;
 }
-.sphere__item_1x {
+.sphere__item {
   display: inline-block;
-  width: 98px;
-  height: 98px;
-  border-radius: 50%;
-  background-color: #2ecc71;
-  margin: 0 0 30px;
-}
-.sphere__item_1x:hover {
-  background-color: #62d995;
-  cursor: pointer;
-}
-.sphere__item_2x {
-  display: inline-block;
-  list-style: none;
-  width: 53px;
-  height: 53px;
   border-radius: 50%;
   background-color: rgba(3, 3, 3, 0.29);
+  margin: 0 0 30px;
+  text-align: center;
 }
-.sphere__item_2x:hover {
+.sphere__item:hover {
   background-color: #62d995;
   cursor: pointer;
 }
-.sphere__item_2x + .sphere__item_2x {
+.sphere__item_level_2x {
+  width: 53px;
+  height: 53px;
+  line-height: 53px;
+}
+.sphere__item_level_2x + .sphere__item_level_2x {
   margin-left: 15px;
+}
+.sphere__item_level_3x {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+}
+.sphere__item_level_3x + .sphere__item_level_3x {
+  margin-left: 10px;
 }
 
 .logo {
@@ -540,72 +487,70 @@ textarea {
 }
 
 .intro {
-  margin: 170px 0 0;
+  margin: 116px 200px 0;
 }
 
 .icon {
-  font-family: 'font-awesome';
-  position: absolute;
   color: #f4f4f4;
-  transform: translateX(50%);
 }
-.icon_social {
-  transform: translateX(-50%);
+.icon_giant {
+  font-size: 58px;
 }
-.icon.fa {
-  line-height: 55px;
+.icon_big {
+  font-size: 24px;
 }
-.icon.fa.fa-windows {
-  transform: translateX(36%);
-}
-.icon_big.fa {
-  line-height: 98px;
-  transform: translateX(-45%);
+.icon_small {
+  font-size: 18px;
 }
 
 .about__item {
   display: inline-block;
-  width: 393px;
+  width: 330px;
   text-align: center;
-  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 0 0 60px;
+}
+.about__icon-wrapper {
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  line-height: 98px;
+  border-radius: 50%;
+  background-color: #2ecc71;
+  margin: 0 0 25px;
+  text-align: center;
+  padding: 16px 0;
   box-sizing: border-box;
 }
-
-body {
-  font-size: 16px;
-  line-height: 24px;
-  color: #848484;
-  font-family: 'Raleway', sans-serif;
+.about__icon-wrapper:hover {
+  background-color: #62d995;
+  cursor: pointer;
 }
 
 .content {
   display: inline-block;
-  width: 585px;
+  width: 570px;
   vertical-align: top;
-  margin: 0 20px 0 0;
   padding: 0 60px 0 0;
   box-sizing: border-box;
 }
-
-.content-wrapper {
-  margin: 0 -40px 0 0;
+.content__video {
+  margin: 0 0 0 20px;
 }
 
-.form {
+.wrapper__form {
   margin: 20px 0 0 0;
 }
 
 .input {
   display: inline-block;
-  border: 1px solid #c8c8c8;
   border-radius: 15px 0px 0px 15px;
   width: 305px;
   height: 58px;
   padding: 0px 20px;
   box-sizing: border-box;
-}
-.input_bgr_white {
-  background-color: white;
+  border: none;
+  outline: none;
 }
 
 .button {
@@ -613,15 +558,15 @@ body {
   border-radius: 0px 15px 15px 0px;
   width: 140px;
   height: 58px;
+  color: #fff;
   padding: 0px 20px;
   box-sizing: border-box;
-  font-size: 18px;
+  font-level: 18px;
   font-weight: 700;
+  border: none;
 }
 .button_green {
-  border: 1px solid #2ecc71;
   background-color: #2ecc71;
-  color: #fff;
 }
 .button_green:hover {
   border: 1px solid #4db97b;
@@ -629,7 +574,7 @@ body {
 }
 
 .carousel {
-  margin: 30px 0 60px;
+  margin: 0px 0 60px;
 }
 .carousel__wrapper {
   display: inline-block;
@@ -643,19 +588,21 @@ body {
   cursor: pointer;
 }
 .carousel__img {
-  width: 140%;
-  transform: translate(-10%, -15%);
-  background-color: aqua;
+  width: 100%;
 }
 .carousel__wrapper + .carousel__wrapper {
   margin-left: 5px;
 }
 
+.users__quote {
+  width: 790px;
+  margin: 0 auto;
+}
 .users__contact {
   text-align: center;
 }
 .users__contact .copy {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .menu {
@@ -668,10 +615,45 @@ body {
 .menu__item + .menu__item {
   margin-left: 40px;
 }
+.menu__link {
+  color: #848484;
+  font-level: 16ppx;
+  text-decoration: none;
+}
 
 .video {
   border-radius: 15px;
   width: 500px;
-  height: 280px;
+  height: 308px;
   overflow: hidden;
+}
+
+.page {
+  font-level: 16px;
+  line-height: 24px;
+  color: #848484;
+  font-family: 'Raleway', sans-serif;
+}
+.page__header {
+  background-image: url("../img/header.png");
+  background-size: cover;
+  background-color: #3a3c3b;
+  height: 540px;
+  padding: 60px 0 0;
+  border-top: 10px solid #2ecc71;
+}
+.page__section {
+  background-color: #fff;
+  padding: 60px 0 35px;
+}
+.page__section_grey {
+  background-color: #e3e3e3;
+  padding: 60px 0;
+}
+.page__footer {
+  text-align: center;
+  padding: 60px 0;
+}
+.page__footer_grey {
+  background-color: #e3e3e3;
 }

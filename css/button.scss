@@ -3,15 +3,15 @@
     border-radius: 0px 15px 15px 0px;
     width: 140px;
     height: 58px;
+    color: #fff;
     padding: 0px 20px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-level: 18px;
     font-weight: 700;
+    border:none;
     
     &_green {
-        border: 1px solid #2ecc71;
         background-color: #2ecc71;
-        color: #fff;
            
             &:hover {
                 border: 1px solid #4db97b;

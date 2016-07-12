@@ -1,41 +1,42 @@
 .sphere {
     display: inline-block;
-    margin: 0 0 0 -45px;
     position: relative;
+    padding: 0;
+    margin: 0;
         
-        &__item_1x {
+        &__item {
             display: inline-block;
-            width: 98px;
-            height: 98px;
-            border-radius: 50%;
-            background-color: rgb(46, 204, 113);
-            margin: 0 0 30px;
-            
-             &:hover {
-                background-color: #62d995;
-                cursor: pointer;
-            }
-        }
-        
-        &__item_2x {
-            display: inline-block;
-            list-style: none;
-            width: 53px;
-            height: 53px;
             border-radius: 50%;
             background-color: rgba(3, 3, 3, 0.29); 
+            margin: 0 0 30px;
+            text-align: center;
             
             &:hover {
                 background-color: #62d995;
                 cursor: pointer;
-                
             }
         }
+    
+        &__item_level_2x {
+            width: 53px;
+            height: 53px;
+            line-height: 53px;
+        }
+    
         
-        &__item_2x + &__item_2x {
+        &__item_level_2x + &__item_level_2x {
             margin-left: 15px;
         }
     
+         &__item_level_3x {
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+        }
+    
+         &__item_level_3x + &__item_level_3x {
+            margin-left: 10px;
+        }
 }
 
 

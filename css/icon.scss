@@ -1,24 +1,16 @@
 .icon {
-    font-family: 'font-awesome';
-    position: absolute;
-    color: rgb(244, 244, 244);
-    transform: translateX(50%);
+    color: #f4f4f4;
     
-    &_social {
-        transform: translateX(-50%);
+     &_giant {
+        font-size: 58px;
     }
     
-    &.fa {
-        line-height: 55px;
+    &_big {
+        font-size: 24px;
     }
     
-    &.fa.fa-windows {
-        transform: translateX(36%);
-    }
-    
-    &_big.fa {
-        line-height: 98px;
-        transform: translateX(-45%);
+    &_small {
+        font-size: 18px;
     }
 }
 

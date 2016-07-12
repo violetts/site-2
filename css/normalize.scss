@@ -2,13 +2,13 @@
 
 /**
  * 1. Change the default font family in all browsers (opinionated).
- * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ * 2. Prevent adjustments of font level after orientation changes in IE and iOS.
  */
 
 html {
   font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-level-adjust: 100%; /* 2 */
+  -webkit-text-level-adjust: 100%; /* 2 */
 }
 
 /**
@@ -81,12 +81,12 @@ template, /* 1 */
   display: none;
 }
 
-/* Links
+/* menu__links
    ========================================================================== */
 
 /**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ * 1. Remove the gray background on active menu__links in IE 10.
+ * 2. Remove gaps in menu__links underline in iOS 8+ and Safari 8+.
  */
 
 a {
@@ -95,7 +95,7 @@ a {
 }
 
 /**
- * Remove the outline on focused links when they are also active or hovered
+ * Remove the outline on focused menu__links when they are also active or hovered
  * in all browsers (opinionated).
  */
 
@@ -145,12 +145,12 @@ dfn {
 }
 
 /**
- * Correct the font size and margin on `h1` elements within `section` and
+ * Correct the font level and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
 h1 {
-  font-size: 2em;
+  font-level: 2em;
   margin: 0.67em 0;
 }
 
@@ -164,11 +164,11 @@ mark {
 }
 
 /**
- * Add the correct font size in all browsers.
+ * Add the correct font level in all browsers.
  */
 
 small {
-  font-size: 80%;
+  font-level: 80%;
 }
 
 /**
@@ -178,7 +178,7 @@ small {
 
 sub,
 sup {
-  font-size: 75%;
+  font-level: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -196,7 +196,7 @@ sup {
    ========================================================================== */
 
 /**
- * Remove the border on images inside links in IE 10-.
+ * Remove the border on images inside menu__links in IE 10-.
  */
 
 img {
@@ -215,7 +215,7 @@ svg:not(:root) {
    ========================================================================== */
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 1. Correct the inheritance and scaling of font level in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
@@ -224,7 +224,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-level: 1em; /* 2 */
 }
 
 /**
