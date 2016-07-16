@@ -150,7 +150,7 @@ dfn {
  */
 
 h1 {
-  font-level: 2em;
+  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -168,7 +168,7 @@ mark {
  */
 
 small {
-  font-level: 80%;
+  font-size: 80%;
 }
 
 /**
@@ -178,7 +178,7 @@ small {
 
 sub,
 sup {
-  font-level: 75%;
+  font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -224,7 +224,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-level: 1em; /* 2 */
+  font-size: 1em; /* 2 */
 }
 
 /**

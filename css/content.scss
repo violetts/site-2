@@ -1,11 +1,14 @@
 .content {
-    display: inline-block;
-    width: 570px;
-    vertical-align: top;
-    padding: 0 60px 0 0;
-    box-sizing: border-box;
-    
-    &__video {
-        margin: 0 0 0 20px;
-    }
+        
+    &__column {    
+        display: inline-block;
+        width: 520px;
+        vertical-align: top;
+        padding: 0 60px 0 0;
+        box-sizing: border-box;
+
+        & + & {
+            margin-left: 136px;
+        }
+    }    
 }
