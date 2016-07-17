@@ -461,20 +461,20 @@ textarea {
   background-color: #62d995;
   cursor: pointer;
 }
-.sphere__item_level_2x {
+.sphere .sphere__item {
   width: 53px;
   height: 53px;
   line-height: 53px;
 }
-.sphere__item_level_2x + .sphere__item_level_2x {
+.sphere__item + .sphere__item {
   margin-left: 15px;
 }
-.sphere__item_level_3x {
+.sphere_social .sphere__item {
   width: 36px;
   height: 36px;
   line-height: 36px;
 }
-.sphere__item_level_3x + .sphere__item_level_3x {
+.sphere_social .sphere__item + .sphere__item {
   margin-left: 10px;
 }
 

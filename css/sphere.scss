@@ -16,26 +16,28 @@
             }
         }
     
-        &__item_level_2x {
+        & &__item {
             width: 53px;
             height: 53px;
             line-height: 53px;
         }
     
         
-        &__item_level_2x + &__item_level_2x {
+        &__item + &__item {
             margin-left: 15px;
         }
-    
-         &__item_level_3x {
+        
+    &_social {
+        & .sphere__item {
             width: 36px;
             height: 36px;
             line-height: 36px;
         }
-    
-         &__item_level_3x + &__item_level_3x {
+        
+         & .sphere__item + .sphere__item {
             margin-left: 10px;
         }
+    }
 }
 
 
